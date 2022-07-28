@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "casper-js-sdk": "^2.9.1"
+  },
+  "scripts": {
+    "mint": "ts-node src/mint.ts",
+    "build": "tsc -p ."
+  }
+}

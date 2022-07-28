@@ -58,7 +58,7 @@ const main = async () => {
       loadedKeyPair.publicKey,
       'casper-net-1',
       constants.DEPLOY_GAS_PRICE,
-      Number(constants.DEPLOY_TTL_MS)
+      constants.DEPLOY_TTL_MS
     ),
     DeployUtil.ExecutableDeployItem.newModuleBytes(
       getBinary(constants.PATH_TO_CONTRACT_MINT),
